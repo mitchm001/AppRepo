@@ -66,8 +66,8 @@ def main():
         launch_week_16 = datetime.date(2019, 12, 19)
         launch_week_17 = datetime.date(2019, 12, 26)
         #print(datetime.date.today())
-        qb_ind_count = 43
-        sk_ind_count = 46
+        qb_ind_count = 50
+        sk_ind_count = 53
 
         payload = {"position":pos,"sort":"pts","statCategory":"stats","statSeason":year,"statType":"weekStats","statWeek":week}
 
